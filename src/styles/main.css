@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #c1c1c1;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: "Arial Black";
+    font-size: 24px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.world-clock{
+    display: inline-block;
+    background-color: #f7f7f7;
+    color: #c1c1c1;
+    padding: 20px;
+}
+.row {
+    display: block;
+}
+.row div{
+    display: inline-block;
+}
+.cell {
+    display: inline-block;
+    text-align: center;
+    width: 33px;
+    height: 33px;
+}
+.highlight {
+    color: gold;
+}

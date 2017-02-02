@@ -1,0 +1,36 @@
+{
+  "name": "wordclock",
+  "version": "1.0.0",
+  "description": "Word Clock",
+  "main": "app.js",
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adstellas/word-clock"
+  },
+  "author": "adstellas",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-open": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.1",
+    "jasmine": "^2.5.3",
+    "jasmine-core": "^2.5.2",
+    "jsdoc": "^3.4.3",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-html2js-preprocessor": "^1.1.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-requirejs": "^1.1.0",
+    "requirejs": "^2.3.2"
+  }
+}

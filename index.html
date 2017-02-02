@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Clock</title>
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <script src="http://localhost:35729/livereload.js"></script>
+    <script src="/node_modules/requirejs/require.js"></script>
+    <script src="/src/scripts/main.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <h1>Word Clock</h1>
+    <div class="world-clock">
+        <div class="row">
+            <div id="it" class="highlight">
+                <div class="cell">I</div>
+                <div class="cell">T</div>
+            </div>
+            <div class="cell">L</div>
+            <div id="is" class="highlight">
+                <div class="cell">I</div>
+                <div class="cell">S</div>
+            </div>
+            <div class="cell">O</div>
+            <div id="minute-20">
+                <div class="cell">T</div>
+                <div class="cell">W</div>
+                <div class="cell">E</div>
+                <div class="cell">N</div>
+                <div class="cell">T</div>
+                <div class="cell">Y</div>
+            </div>
+            <div class="cell">R</div>
+            <div id="minute-1">
+                <div class="cell">O</div>
+                <div class="cell">N</div>
+                <div class="cell">E</div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="minute-2">
+                <div class="cell">T</div>
+                <div class="cell">W</div>
+                <div class="cell">O</div>
+            </div>
+            <div class="cell">E</div>
+            <div id="minute-10">
+                <div class="cell">T</div>
+                <div class="cell">E</div>
+                <div class="cell">N</div>
+            </div>
+            <div class="cell">M</div>
+            <div id="minute-13">
+                <div class="cell">T</div>
+                <div class="cell">H</div>
+                <div class="cell">I</div>
+                <div class="cell">R</div>
+                <div class="cell">T</div>
+                <div class="cell">E</div>
+                <div class="cell">E</div>
+                <div class="cell">N</div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="minute-5">
+                <div class="cell">F</div>
+                <div class="cell">I</div>
+                <div class="cell">V</div>
+                <div class="cell">E</div>
+            </div>
+            <div class="cell">M</div>
+            <div id="minute-11">
+                <div class="cell">E</div>
+                <div class="cell">L</div>
+                <div class="cell">E</div>
+                <div class="cell">V</div>
+                <div class="cell">E</div>
+                <div class="cell">N</div>
+            </div>
+            <div class="cell">I</div>
+            <div id="minute-4">
+                <div class="cell">F</div>
+                <div class="cell">O</div>
+                <div class="cell">U</div>
+                <div class="cell">R</div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="minute-3">
+                <div class="cell">T</div>
+                <div class="cell">H</div>
+                <div class="cell">R</div>
+                <div class="cell">E</div>
+                <div class="cell">E</div>
+            </div>
+            <div class="cell">P</div>
+            <div id="minute-19">
+                <div id="minute-9">
+                    <div class="cell">N</div>
+                    <div class="cell">I</div>
+                    <div class="cell">N</div>
+                    <div class="cell">E</div>
+                </div>
+                <div class="cell">T</div>
+                <div class="cell">E</div>
+                <div class="cell">E</div>
+                <div class="cell">N</div>
+            </div>
+            <div class="cell">S</div>
+            <div class="cell">U</div>
+        </div>
+        <div class="row">
+            <div id="minute-14">
+                <div class="cell">F</div>
+                <div class="cell">O</div>
+                <div class="cell">U</div>
+                <div class="cell">R</div>
+                <div class="cell">T</div>
+                <div class="cell">E</div>
+                <div class="cell">E</div>
+                <div class="cell">N</div>
+            </div>
+            <div id="midnight">
+                <div class="cell">M</div>
+                <div class="cell">I</div>
+                <div class="cell">D</div>
+                <div class="cell">N</div>
+                <div class="cell">I</div>
+                <div class="cell">G</div>
+                <div class="cell">H</div>
+                <div class="cell">T</div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="minute-16">
+                <div id="minute-6">
+                    <div class="cell">S</div>
+                    <div class="cell">I</div>
+                    <div class="cell">X</div>
+                </div>
+                <div class="cell">T</div>
+                <div class="cell">E</div>
+                <div class="cell">E</div>
+                <div class="cell">N</div>
+            </div>
+            <div class="cell">D</div>
+            <div id="minute-18">
+                <div id="minute-8">
+                    <div class="cell">E</div>
+                    <div class="cell">I</div>
+                    <div class="cell">G</div>
+                    <div class="cell">H</div>
+                    <div class="cell">T</div>
+                </div>
+                <div class="cell">E</div>
+                <div class="cell">E</div>
+                <div class="cell">N</div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="minute-17">
+                <div id="minute-7">
+                    <div class="cell">S</div>
+                    <div class="cell">E</div>
+                    <div class="cell">V</div>
+                    <div class="cell">E</div>
+                    <div class="cell">N</div>
+                </div>
+                <div class="cell">T</div>
+                <div class="cell">E</div>
+                <div class="cell">E</div>
+                <div class="cell">N</div>
+            </div>
+            <div class="cell">O</div>
+            <div id="minute-12">
+                <div class="cell">T</div>
+                <div class="cell">W</div>
+                <div class="cell">E</div>
+                <div class="cell">L</div>
+                <div class="cell">V</div>
+                <div class="cell">E</div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="minute-30">
+                <div class="cell">H</div>
+                <div class="cell">A</div>
+                <div class="cell">L</div>
+                <div class="cell">F</div>
+            </div>
+            <div class="cell">E</div>
+            <div class="cell">L</div>
+            <div id="minute-15">
+                <div class="cell">Q</div>
+                <div class="cell">U</div>
+                <div class="cell">A</div>
+                <div class="cell">R</div>
+                <div class="cell">T</div>
+                <div class="cell">E</div>
+                <div class="cell">R</div>
+            </div>
+            <div class="cell">O</div>
+            <div id="to">
+                <div class="cell">T</div>
+                <div class="cell">O</div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="past">
+                <div class="cell">P</div>
+                <div class="cell">A</div>
+                <div class="cell">S</div>
+                <div class="cell">T</div>
+            </div>
+            <div class="cell">R</div>
+            <div id="hour-1">
+                <div class="cell">O</div>
+                <div class="cell">N</div>
+                <div class="cell">E</div>
+            </div>
+            <div class="cell">S</div>
+            <div id="hour-2">
+                <div class="cell">T</div>
+                <div class="cell">W</div>
+                <div class="cell">O</div>
+            </div>
+            <div class="cell">I</div>
+            <div id="hour-6">
+                <div class="cell">S</div>
+                <div class="cell">I</div>
+                <div class="cell">X</div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="hour-12">
+                <div class="cell">T</div>
+                <div class="cell">W</div>
+                <div class="cell">E</div>
+                <div class="cell">L</div>
+                <div class="cell">V</div>
+                <div class="cell">E</div>
+            </div>
+            <div class="cell">T</div>
+            <div id="hour-4">
+                <div class="cell">F</div>
+                <div class="cell">O</div>
+                <div class="cell">U</div>
+                <div class="cell">R</div>
+            </div>
+            <div class="cell">A</div>
+            <div id="hour-5">
+                <div class="cell">F</div>
+                <div class="cell">I</div>
+                <div class="cell">V</div>
+                <div class="cell">E</div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="hour-7">
+                <div class="cell">S</div>
+                <div class="cell">E</div>
+                <div class="cell">V</div>
+                <div class="cell">E</div>
+                <div class="cell">N</div>
+            </div>
+            <div class="cell">M</div>
+            <div id="hour-8">
+                <div class="cell">E</div>
+                <div class="cell">I</div>
+                <div class="cell">G</div>
+                <div class="cell">H</div>
+                <div class="cell">T</div>
+            </div>
+            <div class="cell">E</div>
+            <div id="hour-9">
+                <div class="cell">N</div>
+                <div class="cell">I</div>
+                <div class="cell">N</div>
+                <div class="cell">E</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cell">C</div>
+            <div id="hour-11">
+                <div class="cell">E</div>
+                <div class="cell">L</div>
+                <div class="cell">E</div>
+                <div class="cell">V</div>
+                <div class="cell">E</div>
+                <div class="cell">N</div>
+            </div>
+            <div class="cell">A</div>
+            <div class="cell">R</div>
+            <div class="cell">M</div>
+            <div class="cell">U</div>
+            <div class="cell">R</div>
+            <div class="cell">H</div>
+            <div class="cell">O</div>
+            <div class="cell">T</div>
+            <div class="cell">A</div>
+        </div>
+        <div class="row">
+            <div id="hour-10">
+                <div class="cell">T</div>
+                <div class="cell">E</div>
+                <div class="cell">N</div>
+            </div>
+            <div class="cell">T</div>
+            <div id="hour-3">
+                <div class="cell">T</div>
+                <div class="cell">H</div>
+                <div class="cell">R</div>
+                <div class="cell">E</div>
+                <div class="cell">E</div>
+            </div>
+            <div class="cell">C</div>
+            <div id="oclock">
+                <div class="cell">O'</div>
+                <div class="cell">C</div>
+                <div class="cell">L</div>
+                <div class="cell">O</div>
+                <div class="cell">C</div>
+                <div class="cell">K</div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="in">
+                <div class="cell">I</div>
+                <div class="cell">N</div>
+            </div>
+            <div class="cell">O</div>
+            <div id="the">
+                <div class="cell">T</div>
+                <div class="cell">H</div>
+                <div class="cell">E</div>
+            </div>
+            <div class="cell">N</div>
+            <div id="afternoon">
+                <div class="cell">A</div>
+                <div class="cell">F</div>
+                <div class="cell">T</div>
+                <div class="cell">E</div>
+                <div class="cell">R</div>
+                <div id="noon">
+                    <div class="cell">N</div>
+                    <div class="cell">O</div>
+                    <div class="cell">O</div>
+                    <div class="cell">N</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="morning">
+                <div class="cell">M</div>
+                <div class="cell">O</div>
+                <div class="cell">R</div>
+                <div class="cell">N</div>
+                <div class="cell">I</div>
+                <div class="cell">N</div>
+                <div class="cell">G</div>
+            </div>
+            <div class="cell">S</div>
+            <div id="at">
+                <div class="cell">A</div>
+                <div class="cell">T</div>
+            </div>
+            <div class="cell">E</div>
+            <div id="night">
+                <div class="cell">N</div>
+                <div class="cell">I</div>
+                <div class="cell">G</div>
+                <div class="cell">H</div>
+                <div class="cell">T</div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="evening">
+                <div class="cell">E</div>
+                <div class="cell">V</div>
+                <div class="cell">E</div>
+                <div class="cell">N</div>
+                <div class="cell">I</div>
+                <div class="cell">N</div>
+                <div class="cell">G</div>
+            </div>
+            <div class="cell">C</div>
+            <div class="cell">A</div>
+            <div class="cell">N</div>
+            <div class="cell">D</div>
+            <div class="cell">T</div>
+            <div class="cell">C</div>
+            <div class="cell">O</div>
+            <div class="cell">L</div>
+            <div class="cell">D</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
